@@ -42,7 +42,7 @@ func NewService(meta metav1.ObjectMeta, minikube bool) *corev1.Service {
 		// to allow communication operator -> Jenkins API
 		service.Spec.Type = corev1.ServiceTypeNodePort
 	} else {
-		service.Spec.Type = corev1.ServiceTypeClusterIP
+		service.Spec.Type = corev1.ServiceTypeLoadBalancer
 	}
 
 	return service
