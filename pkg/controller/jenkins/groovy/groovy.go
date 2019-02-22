@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/jenkinsci/kubernetes-operator/pkg/apis/jenkinsio/v1alpha1"
-	jenkinsclient "github.com/jenkinsci/kubernetes-operator/pkg/controller/jenkins/client"
-	"github.com/jenkinsci/kubernetes-operator/pkg/controller/jenkins/jobs"
+	"github.com/oldsj/jenkins-operator/pkg/apis/jenkinsio/v1alpha1"
+	jenkinsclient "github.com/oldsj/jenkins-operator/pkg/controller/jenkins/client"
+	"github.com/oldsj/jenkins-operator/pkg/controller/jenkins/jobs"
 
 	"github.com/go-logr/logr"
 	k8s "sigs.k8s.io/controller-runtime/pkg/client"

@@ -7,12 +7,12 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/jenkinsci/kubernetes-operator/pkg/apis"
-	"github.com/jenkinsci/kubernetes-operator/pkg/controller/jenkins"
-	"github.com/jenkinsci/kubernetes-operator/pkg/controller/jenkins/constants"
-	"github.com/jenkinsci/kubernetes-operator/pkg/event"
-	"github.com/jenkinsci/kubernetes-operator/pkg/log"
-	"github.com/jenkinsci/kubernetes-operator/version"
+	"github.com/oldsj/jenkins-operator/pkg/apis"
+	"github.com/oldsj/jenkins-operator/pkg/controller/jenkins"
+	"github.com/oldsj/jenkins-operator/pkg/controller/jenkins/constants"
+	"github.com/oldsj/jenkins-operator/pkg/event"
+	"github.com/oldsj/jenkins-operator/pkg/log"
+	"github.com/oldsj/jenkins-operator/version"
 
 	"github.com/operator-framework/operator-sdk/pkg/k8sutil"
 	"github.com/operator-framework/operator-sdk/pkg/leader"

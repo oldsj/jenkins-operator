@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jenkinsci/kubernetes-operator/pkg/apis/jenkinsio/v1alpha1"
-	"github.com/jenkinsci/kubernetes-operator/pkg/controller/jenkins/configuration/base/resources"
+	"github.com/oldsj/jenkins-operator/pkg/apis/jenkinsio/v1alpha1"
+	"github.com/oldsj/jenkins-operator/pkg/controller/jenkins/configuration/base/resources"
 
 	framework "github.com/operator-framework/operator-sdk/pkg/test"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

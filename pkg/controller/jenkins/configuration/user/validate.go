@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/jenkinsci/kubernetes-operator/pkg/apis/jenkinsio/v1alpha1"
-	"github.com/jenkinsci/kubernetes-operator/pkg/log"
+	"github.com/oldsj/jenkins-operator/pkg/apis/jenkinsio/v1alpha1"
+	"github.com/oldsj/jenkins-operator/pkg/log"
 
 	stackerr "github.com/pkg/errors"
 	"k8s.io/api/core/v1"

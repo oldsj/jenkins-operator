@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/jenkinsci/kubernetes-operator/pkg/apis/jenkinsio/v1alpha1"
-	jenkinsclient "github.com/jenkinsci/kubernetes-operator/pkg/controller/jenkins/client"
-	"github.com/jenkinsci/kubernetes-operator/pkg/controller/jenkins/configuration/base/resources"
+	"github.com/oldsj/jenkins-operator/pkg/apis/jenkinsio/v1alpha1"
+	jenkinsclient "github.com/oldsj/jenkins-operator/pkg/controller/jenkins/client"
+	"github.com/oldsj/jenkins-operator/pkg/controller/jenkins/configuration/base/resources"
 
 	"github.com/bndr/gojenkins"
 	framework "github.com/operator-framework/operator-sdk/pkg/test"
@@ -97,7 +97,7 @@ func createJenkinsCR(t *testing.T, namespace string) *v1alpha1.Jenkins {
 					Targets:          "cicd/jobs/*.jenkins",
 					Description:      "Jenkins Operator repository",
 					RepositoryBranch: "master",
-					RepositoryURL:    "https://github.com/jenkinsci/kubernetes-operator.git",
+					RepositoryURL:    "https://github.com/oldsj/jenkins-operator.git",
 				},
 			},
 		},

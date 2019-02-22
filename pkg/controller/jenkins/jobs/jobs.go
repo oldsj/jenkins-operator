@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/jenkinsci/kubernetes-operator/pkg/apis/jenkinsio/v1alpha1"
-	"github.com/jenkinsci/kubernetes-operator/pkg/controller/jenkins/client"
-	"github.com/jenkinsci/kubernetes-operator/pkg/log"
+	"github.com/oldsj/jenkins-operator/pkg/apis/jenkinsio/v1alpha1"
+	"github.com/oldsj/jenkins-operator/pkg/controller/jenkins/client"
+	"github.com/oldsj/jenkins-operator/pkg/log"
 
 	"github.com/go-logr/logr"
 	"github.com/pkg/errors"

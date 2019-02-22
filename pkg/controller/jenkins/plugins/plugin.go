@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/jenkinsci/kubernetes-operator/pkg/log"
+	"github.com/oldsj/jenkins-operator/pkg/log"
 
 	"github.com/pkg/errors"
 )

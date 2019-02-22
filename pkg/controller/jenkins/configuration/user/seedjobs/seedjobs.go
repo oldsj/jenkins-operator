@@ -6,11 +6,11 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/jenkinsci/kubernetes-operator/pkg/apis/jenkinsio/v1alpha1"
-	jenkinsclient "github.com/jenkinsci/kubernetes-operator/pkg/controller/jenkins/client"
-	"github.com/jenkinsci/kubernetes-operator/pkg/controller/jenkins/constants"
-	"github.com/jenkinsci/kubernetes-operator/pkg/controller/jenkins/jobs"
-	"github.com/jenkinsci/kubernetes-operator/pkg/log"
+	"github.com/oldsj/jenkins-operator/pkg/apis/jenkinsio/v1alpha1"
+	jenkinsclient "github.com/oldsj/jenkins-operator/pkg/controller/jenkins/client"
+	"github.com/oldsj/jenkins-operator/pkg/controller/jenkins/constants"
+	"github.com/oldsj/jenkins-operator/pkg/controller/jenkins/jobs"
+	"github.com/oldsj/jenkins-operator/pkg/log"
 
 	"github.com/go-logr/logr"
 	"k8s.io/api/core/v1"

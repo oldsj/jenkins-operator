@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/jenkinsci/kubernetes-operator/pkg/apis/jenkinsio/v1alpha1"
-	"github.com/jenkinsci/kubernetes-operator/pkg/controller/jenkins/client"
+	"github.com/oldsj/jenkins-operator/pkg/apis/jenkinsio/v1alpha1"
+	"github.com/oldsj/jenkins-operator/pkg/controller/jenkins/client"
 
 	"github.com/bndr/gojenkins"
 	"github.com/golang/mock/gomock"
@@ -406,7 +406,7 @@ func jenkinsCustomResource() *v1alpha1.Jenkins {
 					Targets:          "cicd/jobs/*.jenkins",
 					Description:      "Jenkins Operator e2e tests repository",
 					RepositoryBranch: "master",
-					RepositoryURL:    "https://github.com/jenkinsci/kubernetes-operator.git",
+					RepositoryURL:    "https://github.com/oldsj/jenkins-operator.git",
 				},
 			},
 		},

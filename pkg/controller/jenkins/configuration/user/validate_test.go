@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/jenkinsci/kubernetes-operator/pkg/apis/jenkinsio/v1alpha1"
+	"github.com/oldsj/jenkins-operator/pkg/apis/jenkinsio/v1alpha1"
 
 	"github.com/stretchr/testify/assert"
 	corev1 "k8s.io/api/core/v1"
@@ -66,7 +66,7 @@ func TestValidateSeedJobs(t *testing.T) {
 							Targets:          "cicd/jobs/*.jenkins",
 							Description:      "Jenkins Operator e2e tests repository",
 							RepositoryBranch: "master",
-							RepositoryURL:    "https://github.com/jenkinsci/kubernetes-operator.git",
+							RepositoryURL:    "https://github.com/oldsj/jenkins-operator.git",
 						},
 					},
 				},
@@ -82,7 +82,7 @@ func TestValidateSeedJobs(t *testing.T) {
 							Targets:          "cicd/jobs/*.jenkins",
 							Description:      "Jenkins Operator e2e tests repository",
 							RepositoryBranch: "master",
-							RepositoryURL:    "https://github.com/jenkinsci/kubernetes-operator.git",
+							RepositoryURL:    "https://github.com/oldsj/jenkins-operator.git",
 						},
 					},
 				},
@@ -99,7 +99,7 @@ func TestValidateSeedJobs(t *testing.T) {
 							Targets:          "cicd/jobs/*.jenkins",
 							Description:      "Jenkins Operator e2e tests repository",
 							RepositoryBranch: "master",
-							RepositoryURL:    "https://github.com/jenkinsci/kubernetes-operator.git",
+							RepositoryURL:    "https://github.com/oldsj/jenkins-operator.git",
 							PrivateKey: v1alpha1.PrivateKey{
 								SecretKeyRef: &corev1.SecretKeySelector{
 									LocalObjectReference: corev1.LocalObjectReference{
@@ -137,7 +137,7 @@ func TestValidateSeedJobs(t *testing.T) {
 							Targets:          "cicd/jobs/*.jenkins",
 							Description:      "Jenkins Operator e2e tests repository",
 							RepositoryBranch: "master",
-							RepositoryURL:    "https://github.com/jenkinsci/kubernetes-operator.git",
+							RepositoryURL:    "https://github.com/oldsj/jenkins-operator.git",
 							PrivateKey: v1alpha1.PrivateKey{
 								SecretKeyRef: &corev1.SecretKeySelector{
 									LocalObjectReference: corev1.LocalObjectReference{
@@ -175,7 +175,7 @@ func TestValidateSeedJobs(t *testing.T) {
 							Targets:          "cicd/jobs/*.jenkins",
 							Description:      "Jenkins Operator e2e tests repository",
 							RepositoryBranch: "master",
-							RepositoryURL:    "https://github.com/jenkinsci/kubernetes-operator.git",
+							RepositoryURL:    "https://github.com/oldsj/jenkins-operator.git",
 							PrivateKey: v1alpha1.PrivateKey{
 								SecretKeyRef: &corev1.SecretKeySelector{
 									LocalObjectReference: corev1.LocalObjectReference{
@@ -213,7 +213,7 @@ func TestValidateSeedJobs(t *testing.T) {
 							Targets:          "cicd/jobs/*.jenkins",
 							Description:      "Jenkins Operator e2e tests repository",
 							RepositoryBranch: "master",
-							RepositoryURL:    "git@github.com:jenkinsci/kubernetes-operator.git",
+							RepositoryURL:    "git@github.com:oldsj/jenkins-operator.git",
 						},
 					},
 				},

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/jenkinsci/kubernetes-operator/pkg/apis/jenkinsio/v1alpha1"
-	"github.com/jenkinsci/kubernetes-operator/pkg/controller/jenkins/plugins"
-	"github.com/jenkinsci/kubernetes-operator/pkg/log"
+	"github.com/oldsj/jenkins-operator/pkg/apis/jenkinsio/v1alpha1"
+	"github.com/oldsj/jenkins-operator/pkg/controller/jenkins/plugins"
+	"github.com/oldsj/jenkins-operator/pkg/log"
 
 	docker "github.com/docker/distribution/reference"
 )
